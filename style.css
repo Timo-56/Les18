@@ -1,0 +1,72 @@
+#content{
+  margin-top: 20px;
+  }
+  [class*="col-"] {
+  width: 100%;
+  }
+  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {body{background-color: rgb(224, 224, 255);}}
+  [class*="col-"] 
+  {
+  float: left;
+  padding: 15px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  }
+header {
+    height: 200px;
+    background-image: url('https://media.istockphoto.com/id/1143539287/photo/channel-in-amsterdam-netherlands-houses-river-amstel.jpg?s=612x612&w=0&k=20&c=tYhG0NPq1eCGP3JgwFrphJK2VQ9mVHmEHZXUudzNCGE=');
+}
+
+footer {
+    color: rgb(255, 0, 0);
+    background-color: rgb(37, 37, 117);
+}
+  
+h1 {
+        font-family: 'Courier', monospace;
+        font-size: 44px;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+      }
+      
+  .col-2 {
+    font-family: 'Courier', monospace;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+  }
+  
+  .col-9 {
+    font-family: 'Courier', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(92, 136, 172);
+  }
+  
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+
+
+
+    
+  
